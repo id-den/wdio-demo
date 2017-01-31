@@ -58,22 +58,10 @@ exports.config = {
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
     capabilities: [{
-        browserName: 'chrome',
+        browserName: 'ie',
         platform: 'Windows 8.1',
-        version: '41.0',
-        name: 'chrome test',
-        build: BUILD_ID
-    }, {
-        browserName: 'firefox',
-        platform: 'Windows 8',
-        version: '37.0',
-        name: 'firefox test',
-        build: BUILD_ID
-    },{
-        browserName: 'safari',
-        platform: 'OS X 10.10',
-        version: '8.0',
-        name: 'safari test',
+        version: '11',
+        name: 'ie test',
         build: BUILD_ID
     }],
     //
